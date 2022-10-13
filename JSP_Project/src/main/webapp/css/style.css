@@ -1,0 +1,152 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+
+body{font:15px "맑은 고딕";}
+
+header{
+	background: skyblue;
+	padding: 20px 0;
+	text-align: center;
+	color:white;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+section{
+	border: 1px solid pink;
+	width:80%;
+	min-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+section h2{
+	background: skyblue;
+	color:white;
+	padding: 5px 10px;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+}
+
+section form{
+	border:1px solid #eee;
+	padding: 10px;
+}
+
+table{
+	width:100%;
+	border-collapse:collapse;
+	text-align: center;
+	}
+
+table th{
+	background: #ccc;
+	text-align: right;
+	padding: 10px;
+	width:200px;
+}
+table td{
+	padding : 10px 0;
+	padding-left: 10px;
+	border:1px solid #ccc;
+}
+form span{
+	color:red;
+	display:inline-block;
+	width:10px;
+	}
+
+/* form 태그들 속성 */
+form input[type="text"],
+form input[type="password"],
+form select[name="job"],
+form input[type="tel"]{
+	padding: 5px 10px;
+	outline:none;
+	border: 1px solid #ccc;
+	width:200px;
+	box-sizing: border-box;
+}
+form input[name="tel1"],
+form input[name="tel2"],
+form input[name="tel3"]{
+	width:15%;
+	min-width:50px;
+	max-width:50px;
+}
+
+
+form select[name="interest2"]{
+	padding: 10px;
+	border: 1px solid #ccc;
+	outline:none;
+}
+
+form textarea{
+	width:100%;
+	border: 1px solid #ccc;
+	outline:none;
+	padding: 10px;
+	line-height: 1.5;
+}
+
+.subBtn{
+	padding: 50px 0;
+	text-align: center;
+}
+
+.subBtn input[type="submit"],
+.subBtn input[type="reset"]{
+	background: skyblue;
+	padding: 10px 0px;
+	border:1px solid skyblue;
+	border-radius:20px;
+	font-weight:bold;
+	font-size:1.1em;
+	color:white;
+	transition:0.5s;
+	width:200px;
+	text-align: center;
+}
+.subBtn input[type="submit"]:hover,
+.subBtn input[type="reset"]:hover{
+	background: white;
+	color:skyblue;
+}
+.btnWrap a{
+	color:white;text-decoration: none;
+	width:100%;
+	display:block;
+	
+	}
+.btnWrap{
+	background: skyblue;
+	padding: 10px 0px;
+	border:1px solid skyblue;
+	border-radius:20px;
+	font-weight:bold;
+	font-size:1.1em;
+	color:white;
+	transition:0.5s;
+	width:200px;
+	text-align: center;
+	margin:10px auto;
+	}
+.btnWrap:hover{
+	background: white;
+	color:skyblue;
+}
+.btnWrap a:hover{color:skyblue;}
+
+.btnWrap input{
+	background: skyblue;
+	padding: 10px 0px;
+	border:1px solid skyblue;
+	border-radius:20px;
+	font-weight:bold;
+	font-size:1.1em;
+	color:white;
+	transition:0.5s;
+	width:200px;
+	text-align: center;
+}
